@@ -75,5 +75,3 @@ let myObject = {
 let myName = "michael"
 console.log(myName.length)
 console.log(myName.toUpperCase())
-
-console.log("just an extra console log")
