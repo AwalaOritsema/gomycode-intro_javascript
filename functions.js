@@ -29,3 +29,5 @@ let addTwo = (number) => number + 2
 let myValue = 80
 let expectedResult = addTwo(myValue)
 console.log(expectedResult)
+
+console.log("Trying git commands")
