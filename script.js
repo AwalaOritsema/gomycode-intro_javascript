@@ -42,20 +42,27 @@
 // Data Types
 
 // // number
-// let myNumber = 157
-// console.log("A number type:", myNumber)
+let myNumber = 157
+console.log("A number type:", myNumber)
 
-// // string
-// let myString = "Hello World"
-// console.log("A string type:", myString)
+// string
+let myString = "Hello World"
+console.log("A string type:", myString)
 
-// // boolean
-// let myBoolean = true
-// console.log("A boolean type:", myBoolean)
+// boolean
+let myBoolean = true
+console.log("A boolean type:", myBoolean)
 
-// // Array
-// let myArray = [false, 1, 2, 3, "Michael", 5]
-// console.log("An Array type:", myArray)
+// Array
+let myArray = [false, 1, 2, 3, "Michael", 5]
+console.log("An Array type:", myArray)
+
+// Matrix - still Array type
+let myMatrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+]
 
 // // object
 let myObject = {
@@ -65,6 +72,7 @@ let myObject = {
     console.log("walking...")
   },
 }
+
 // console.log("An object type:", myObject)
 // console.log("my object properties:")
 // console.log(myObject.name)
