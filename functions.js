@@ -33,6 +33,20 @@
 // console.log("Trying git commands")
 
 // a recursive function
+// function factorial(number) {
+//   if (number <= 1) {
+//     return 1
+//   }
+
+//   return number * factorial(number - 1)
+// }
+
+// 5! = 5!
+// 5! = 5 x 4!
+// 5! = 5 x 4 x 3!
+// 5! = 5 x 4 x 3 x 2!
+// 5! = 5 x 4 x 3 x 2 x 1
+
 function factorial(number) {
   if (number <= 1) {
     return 1
@@ -40,12 +54,4 @@ function factorial(number) {
 
   return number * factorial(number - 1)
 }
-
-// 5! = 5 * 4!
-// 5! = 5 * 4 * 3!
-// 5! = 5 * 4 * 3 * 2!
-// 5! = 5 * 4 * 3 * 2 * 1!
-// 5! = 5 * 4 * 3 * 2 * 1
-
-let result = factorial(5)
-console.log(result)
+// 5 * 4 * 3 * 2 * 1
