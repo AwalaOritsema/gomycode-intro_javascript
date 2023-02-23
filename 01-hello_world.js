@@ -1,3 +1,10 @@
-console.log("Hello World")
-alert("Hey there, another alert")
-prompt("Please enter your name")
+// console.log("hello world")
+// console.log(innerWidth)
+// console.log(innerHeight)
+
+// console.log("hi")
+// alert("A notification")
+// const username = prompt("Please enter your name")
+// console.log(username)
+// const wishToContinue = confirm("Do you wish to continue?")
+// console.log(wishToContinue)
