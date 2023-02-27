@@ -10,11 +10,17 @@ function getSellingPrice(costPrice, discount) {
   return sellingPrice
 }
 
-const price1 = getSellingPrice(5800, 0.2)
-console.log("price 1:", price1)
+// const price1 = getSellingPrice(5800, 0.2)
+// console.log("price 1:", price1)
 
-const price2 = getSellingPrice(79540, 0.4)
-console.log("price 2:", price2)
+// const price2 = getSellingPrice(79540, 0.4)
+// console.log("price 2:", price2)
 
-const price3 = getSellingPrice(287000, 0.5)
-console.log("price 3:", price3)
+// const price3 = getSellingPrice(287000, 0.5)
+// console.log("price 3:", price3)
+
+let addNumbers = (firstNumber, secondNumber) => {
+  return firstNumber + secondNumber
+}
+
+console.log(addNumbers(10, 65))
