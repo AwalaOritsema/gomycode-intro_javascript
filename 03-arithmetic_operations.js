@@ -61,6 +61,18 @@ console.log("my score is now", myScore)
 myScore -= 10
 console.log("my score finally is", myScore)
 
+myScore *= 2
+console.log("myScore *=", myScore)
+
+myScore /= 20
+console.log("myScore /=", myScore)
+
+myScore **= 2
+console.log("myScore **=", myScore)
+
+myScore %= 6
+console.log("myScore %=", myScore)
+
 // comparison operators
 const x = 5
 const y = 4
@@ -117,3 +129,7 @@ let userIsSubscribed = false
 
 // userIsLoggedIn && userIsAdmin && userIsSubscribed -> give access
 // else -> deny access
+
+// string operators
+let myName = "Michael Peter"
+console.log(`My name is ${myName} and that's all.`)
