@@ -20,3 +20,21 @@ const numbers = [
 // for (const number of numbers) {
 //   console.log(`Number is ${number}`)
 // }
+
+// for (const index in numbers) {
+//   console.log(`Index ${index}`)
+// }
+
+const person = {
+  firstName: "Michael",
+  lastName: "Peter",
+  email: "michaelhpet@gmail.com",
+}
+
+for (const key in person) {
+  console.log("Key is", key)
+}
+
+for (const key in person) {
+  console.log("Value is", person[key])
+}
