@@ -19,3 +19,44 @@ const eighthOrange = oranges[8]
 // console.log("total price of oranges:", totalPrice)
 // console.log("third orange price is", thirdOrange)
 // console.log("eighth orange price is", eighthOrange)
+
+// function printArray(arrayToPrint) {
+//   for (const element of arrayToPrint) {
+//     console.log(element)
+//   }
+// }
+
+// const days = ["Sunday", "Monday", "Tuesday"]
+// const months = ["Jan", "Feb", "Mar", "Apr"]
+
+// days.push("Wednesday", "Thursday", "Friday", "Saturday")
+// printArray(days)
+
+// console.log("=====================================")
+
+// const daysWithMonths = days.concat(months)
+// printArray(daysWithMonths)
+
+// array => object
+// console.log(days.length)
+
+const days = ["Monday", "Tuesday", "Wednesday", "Thursday"]
+days.push("Friday")
+days.push("Saturday")
+// console.log(days)
+
+// days.push("Sunday")
+// console.log(days)
+days.push("Sunday")
+// console.log(days)
+
+// ADDING ELEMENTS TO AN ARRAY
+//  -> push - add to the end of the array
+//  -> unshift - add to the beginning of the array
+
+// REMOVING ELEMENTS FROM AN ARRAY
+//  -> pop - remove the last element of the array
+//  -> shift - remove the first element of the array
+
+// ACCESSING ELEMENTS OF AN ARRAY
+// console.log(days.at(2))
