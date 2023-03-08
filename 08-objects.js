@@ -23,9 +23,21 @@ const person = {
   introduce: function () {
     console.log(this.name + " is a " + this.profession)
   },
+  //   introduce: () => {
+  //     console.log(this.name + " is a " + this.profession)
+  //   },
+  //   introduce() {
+  //     console.log(this.name + " is a " + this.profession)
+  //   },
   walk: function () {
     console.log(`${this.name}, a ${this.profession} is walking`)
   },
+  //   walk: () => {
+  //     console.log(`${this.name}, a ${this.profession} is walking`)
+  //   },
+  //   walk() {
+  //     console.log(`${this.name}, a ${this.profession} is walking`)
+  //   },
 }
 
 // person.profession
