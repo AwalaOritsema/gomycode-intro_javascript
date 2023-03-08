@@ -70,3 +70,19 @@ const person = {
 //   console.log(`Hello world ${i} times`)
 //   i = i + 1
 // } while (i < 5)
+
+// BREAK and CONTINUE
+
+// for (let i = 1; i < 11; i++) {
+//   console.log(i)
+//   if (i === 5) {
+//     break
+//   }
+// }
+
+// for (let i = 1; i < 11; i++) {
+//   if (i % 2 === 1) {
+//     continue
+//   }
+//   console.log(i)
+// }
