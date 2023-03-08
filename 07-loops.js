@@ -30,6 +30,8 @@ const person = {
   lastName: "Peter",
   email: "michaelhpet@gmail.com",
 }
+// person.firstName
+// person["firstName"]
 
 for (const key in person) {
   console.log("Key is", key)
