@@ -33,10 +33,40 @@ const person = {
 // person.firstName
 // person["firstName"]
 
-for (const key in person) {
-  console.log("Key is", key)
-}
+// for (const key in person) {
+//   console.log("Key is", key)
+// }
 
-for (const key in person) {
-  console.log("Value is", person[key])
-}
+// for (const key in person) {
+//   console.log("Value is", person[key])
+// }
+
+// let i = 0
+
+// while (i < 5) {
+//   console.log(`Hello world ${i} times`)
+//   i = i + 1
+// }
+
+// let email = 'some'
+// let password = 1234
+// while (email !== realEmail && password !== 3421) {
+// console.log('please enter email and password')
+// }
+
+// let i = 10
+
+// while (i < 5) {
+//   console.log("hello world")
+//   i++
+// }
+
+// do {
+//   console.log("hello world")
+//   i++
+// } while (i < 5)
+
+// do {
+//   console.log(`Hello world ${i} times`)
+//   i = i + 1
+// } while (i < 5)
