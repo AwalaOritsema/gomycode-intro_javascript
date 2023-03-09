@@ -58,5 +58,27 @@ days.push("Sunday")
 //  -> pop - remove the last element of the array
 //  -> shift - remove the first element of the array
 
+// ADD and REMOVE
+//  -> splice - remove/add/replace elements at any index of an array
+
+// days.pop()
+// console.log(days)
+
+// days.shift()
+// console.log(days)
+
 // ACCESSING ELEMENTS OF AN ARRAY
 // console.log(days.at(2))
+
+const scores = [89, 56, 39, 48, 84, 72]
+// console.log(scores)
+
+// scores.splice(1, 0, 14)
+// console.log(scores)
+// scores.splice(5, 1)
+// console.log(scores)
+// scores.pop()
+// scores.splice(0, 2)
+// console.log(scores)
+// scores.splice(0, 2, 45, 10, 100, 87, 02, 32)
+// console.log(scores)
