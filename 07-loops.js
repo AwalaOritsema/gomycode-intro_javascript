@@ -30,8 +30,8 @@ const person = {
   lastName: "Peter",
   email: "michaelhpet@gmail.com",
 }
-// person.firstName
-// person["firstName"]
+// person.firstName -> "Michael"
+// person["firstName"] -> "Michael"
 
 // for (const key in person) {
 //   console.log("Key is", key)
@@ -45,13 +45,13 @@ const person = {
 
 // while (i < 5) {
 //   console.log(`Hello world ${i} times`)
-//   i = i + 1
+//   i++
 // }
 
 // let email = 'some'
 // let password = 1234
 // while (email !== realEmail && password !== 3421) {
-// console.log('please enter email and password')
+//    console.log('please enter email and password')
 // }
 
 // let i = 10
@@ -85,4 +85,25 @@ const person = {
 //     continue
 //   }
 //   console.log(i)
+// }
+
+// const customers = [
+//   { name: "Michael", subscribed: false },
+//   { name: "Nathanael", subscribed: true },
+//   { name: "Awala", subscribed: true },
+//   { name: "Sheriff", subscribed: false },
+//   { name: "Anthonia", subscribed: false },
+// ]
+
+// for (let i = 0; i < customers.length; i++) {
+//   if (customers[i].subscribed === false) {
+//     continue // skip/jump
+//   }
+//   console.log(customers[i])
+// }
+// for (const customer of customers) {
+//   if (customer.subscribed === false) {
+//     continue
+//   }
+//   console.log(customer)
 // }
