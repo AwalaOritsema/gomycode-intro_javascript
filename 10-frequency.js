@@ -2,7 +2,7 @@
 // object
 // loops
 
-const myNumbers = [1, 1, 3, 5, 6, 7, 1, 2, 5, 4, 2, 1]
+const myNumbers = [1, 1, 3, 5, 6, 7, 1, 2, 5, 4, 2, 1, "hello"]
 
 // 1. Create an empty [frequency] object that should hold the elements of the
 // array as keys and the number of times they appear as values
@@ -19,11 +19,20 @@ const myNumbers = [1, 1, 3, 5, 6, 7, 1, 2, 5, 4, 2, 1]
 // 5. Return the object
 
 function numbersFrequency(numbers) {
+  // check if argument is array
+  if (Array.isArray(numbers) === false) {
+    throw new Error("Please provide an array")
+  }
+
   // create an empty object frequency
   const frequency = {}
 
   // loop over all elements of numbers array
   for (const number of numbers) {
+    if (typeof number !== "number") {
+      continue
+    }
+
     if (Boolean(frequency[number])) {
       frequency[number] += 1
     } else {
