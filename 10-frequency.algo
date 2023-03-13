@@ -1,0 +1,12 @@
+ALGORITHM numbers_frequency
+VAR
+    numbers_array: array;
+    frequency_obj: object;
+BEGIN
+    FOR i FROM 1 to LENGTH(numbers_array) STEP 1 DO
+        IF (frequency_obj[i]) THEN
+            frequency_obj[i] +:= 1
+        ELSE
+            frequency_obj[i] := 1
+    RETURN frequency_obj
+END 

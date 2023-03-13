@@ -1,7 +1,34 @@
+// Types of data
+//  ------- Primitive types
+//          - number
+//          - boolean
+//          - string
+//          - null
+//          - undefined
+//          - symbol
+// -------- Object types
+//          - object
+//          - array
+//          - function
+
+// const newObject = { name: "Michael" }
+// const newObject = new Object('hello')
+// const newArray = [1, 2, 4]
+const newArray = new Array(5)
+// newArray[0] = 15
+// newArray[1] = 21
+// console.log(newArray)
+
+// Objects in JavaScript
+
 // A running sum:
 
 // Given an array of numbers, create a function that
 // computes the sum of all the numbers in that array
+
+const sampleObject = {
+  name: "Lorem Ipsum",
+}
 
 const myNumbers = [
   12,
@@ -48,6 +75,7 @@ const myNumbers = [
 // function
 // loop
 // arithmetic (+)
+// comparison operators
 
 function sum(numbers) {
   // check data type of parameter/argument
@@ -93,5 +121,5 @@ function sum(numbers) {
 // console.log(result)
 // console.log(sum(myNumbers))
 
-console.log(sum(myNumbers))
+// console.log(sum(myNumbers))
 // console.log(typeof 54)
