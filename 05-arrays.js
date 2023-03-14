@@ -70,8 +70,15 @@ days.push("Sunday")
 // ACCESSING ELEMENTS OF AN ARRAY
 // console.log(days.at(2))
 
+function addThree(number) {
+  number += 3
+  console.log(number)
+}
+
 const scores = [89, 56, 39, 48, 84, 72]
 // console.log(scores)
+
+scores.forEach(addThree)
 
 // scores.splice(1, 0, 14)
 // console.log(scores)
