@@ -1,7 +1,51 @@
-h1 {
-  background-color: yellow;
+:root {
+  font-family: "Lato";
 }
 
-.text {
-  color: green;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 480px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+ul {
+  margin-left: 16px;
+}
+
+button {
+  padding: 10px 14px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: black;
+  color: aqua;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: transparent;
+  color: black;
+  border: solid 1px black;
+}
+
+input {
+  padding: 10px 14px;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input:focus {
+  border-color: aqua;
 }
