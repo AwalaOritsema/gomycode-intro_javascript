@@ -110,8 +110,8 @@ button.onclick = function (event) {
   }
 };
 
-const person = {
-  name: "Michael",
-};
+// const person = {
+//   name: "Michael",
+// };
 
-person.lastName = "Peter";
+// person.lastName = "Peter";
