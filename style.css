@@ -9,8 +9,9 @@
 }
 
 body {
-  width: 480px;
+  max-width: 480px;
   margin: 100px auto;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -21,6 +22,7 @@ ul {
 }
 
 button {
+  font-family: inherit;
   padding: 10px 14px;
   border: 1px solid transparent;
   border-radius: 8px;
@@ -34,10 +36,11 @@ button {
 button:hover {
   background-color: transparent;
   color: black;
-  border: solid 1px black;
+  border: 1px solid black;
 }
 
 input {
+  font-family: inherit;
   padding: 10px 14px;
   border: 1px solid black;
   border-radius: 8px;
@@ -46,6 +49,11 @@ input {
   font-weight: bold;
 }
 
-input:focus {
+/* 
+input::placeholder {
+  color: lightgray;
+} */
+
+/* input:focus {
   border-color: aqua;
-}
+} */
