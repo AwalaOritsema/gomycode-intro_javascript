@@ -60,9 +60,9 @@
 // const h1 = document.querySelector() -> selects a single element
 // const h1 = document.querySelectorAll() -> selects multiple elements
 
-const h1 = document.querySelector("h1");
+const h1 = document.querySelector("h1")
 // console.log(h1)
-h1.innerText = "Hello World";
+h1.innerText = "Hello World"
 // console.log(h1.classList)
 // h1.classList.add("extra-class")
 
@@ -76,10 +76,10 @@ h1.innerText = "Hello World";
 //   h1.classList.remove("extra-class")
 // })
 
-const fruitsUl = document.querySelector("ul");
-const inputField = document.querySelector("input");
-const button = document.querySelector("button");
-
+let fruitsUl = document.querySelector("ul")
+const inputField = document.querySelector("input")
+const button = document.querySelector("button")
+const fruitLis = document.querySelectorAll("li")
 // button.addEventListener('click', (event) => {
 //   console.log('hello world')
 // })
@@ -93,22 +93,44 @@ const button = document.querySelector("button");
 
 button.onclick = function (event) {
   // get the text input that was collected in inputField
-  const text = inputField.value;
+  const text = inputField.value
 
   if (Boolean(text) === true) {
     // create a new "li" element
-    const newLi = document.createElement("li");
+    const newLi = document.createElement("li")
 
     // add the input text inside the new li element
-    newLi.innerText = text;
+    newLi.innerText = text
 
     // add the li to the fruitsUl list
-    fruitsUl.appendChild(newLi);
+    fruitsUl.appendChild(newLi)
+
+    // update fruitsUl
+    fruitsUl = document.querySelector("ul")
 
     // clear the input field
-    inputField.value = "";
+    inputField.value = ""
   }
-};
+}
+
+fruitLis.forEach((li) => {
+  if (fruitsUl.children.length >= 1) {
+    li.onclick = function () {
+      fruitsUl.removeChild(li)
+      fruitsUl = document.querySelector("ul")
+    }
+  }
+})
+
+// for (const li of fruitLis) {
+//   li.onclick = function () {
+//     if (fruitsUl.children.length >= 1) {
+//       li.onclick = function () {
+//         fruitsUl.removeChild(li)
+//       }
+//     }
+//   }
+// }
 
 // const person = {
 //   name: "Michael",

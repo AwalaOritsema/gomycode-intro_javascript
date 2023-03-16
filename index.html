@@ -9,6 +9,7 @@
   </head>
 
   <body>
+    <!-- <h1 onclick="alert('hello world')">Lorem ipsum dolor sit amet.</h1> -->
     <h1>Lorem ipsum dolor sit amet.</h1>
 
     <p>
@@ -35,7 +36,11 @@
       // const headings = document.getElementsByClassName("h1")
       // console.log(headings.item(0))
       const h1 = document.querySelector("h1")
-      console.log(h1.innerHTML)
+      // const h1s = document.querySelectorAll("h1")
+      // alert(h1.innerText)
+      h1.onclick = function () {
+        alert('you just clicked me')
+      }
     </script> -->
     <script src="11-dom.js"></script>
   </body>
