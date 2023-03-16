@@ -15,7 +15,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  transition: all 0.5s;
 }
 
 ul {
