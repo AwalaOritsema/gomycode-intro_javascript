@@ -62,7 +62,7 @@
 
 const h1 = document.querySelector("h1")
 // console.log(h1)
-h1.innerText = "Hello World"
+h1.innerText = "List of Fruits"
 // console.log(h1.classList)
 // h1.classList.add("extra-class")
 
@@ -76,10 +76,9 @@ h1.innerText = "Hello World"
 //   h1.classList.remove("extra-class")
 // })
 
-let fruitsUl = document.querySelector("ul")
+const fruitsUl = document.querySelector("ul")
 const inputField = document.querySelector("input")
 const button = document.querySelector("button")
-const fruitLis = document.querySelectorAll("li")
 // button.addEventListener('click', (event) => {
 //   console.log('hello world')
 // })
@@ -91,7 +90,7 @@ const fruitLis = document.querySelectorAll("li")
 //   newLi.innerHTML = text
 // }
 
-button.onclick = function (event) {
+button.onclick = function () {
   // get the text input that was collected in inputField
   const text = inputField.value
 
@@ -105,22 +104,19 @@ button.onclick = function (event) {
     // add the li to the fruitsUl list
     fruitsUl.appendChild(newLi)
 
-    // update fruitsUl
-    fruitsUl = document.querySelector("ul")
-
     // clear the input field
     inputField.value = ""
   }
 }
 
-fruitLis.forEach((li) => {
-  if (fruitsUl.children.length >= 1) {
-    li.onclick = function () {
-      fruitsUl.removeChild(li)
-      fruitsUl = document.querySelector("ul")
-    }
-  }
-})
+// fruitLis.forEach((li) => {
+//   if (fruitsUl.children.length >= 1) {
+//     li.onclick = function () {
+//       fruitsUl.removeChild(li)
+//       fruitsUl = document.querySelector("ul")
+//     }
+//   }
+// })
 
 // for (const li of fruitLis) {
 //   li.onclick = function () {
