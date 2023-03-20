@@ -1,0 +1,33 @@
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 16px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  box-shadow: 0 0 2px gray;
+  transition: all 0.5s;
+}
+
+li::after {
+  opacity: 0;
+  content: "X";
+  font-weight: bold;
+}
+
+li:hover {
+  box-shadow: 0 0 15px gray;
+  cursor: pointer;
+}
+
+li:hover::after {
+  opacity: 1;
+}

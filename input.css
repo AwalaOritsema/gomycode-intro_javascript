@@ -1,0 +1,19 @@
+
+input {
+  font-family: inherit;
+  padding: 10px 14px;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 
+input::placeholder {
+  color: lightgray;
+} */
+
+/* input:focus {
+  border-color: aqua;
+} */

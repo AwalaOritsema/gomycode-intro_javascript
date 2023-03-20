@@ -1,0 +1,17 @@
+button {
+  font-family: inherit;
+  padding: 10px 14px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: black;
+  color: aqua;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
