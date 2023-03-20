@@ -109,6 +109,15 @@ button.onclick = function () {
   }
 }
 
+window.onclick = function (event) {
+  // get event target
+  const elementClicked = event.target
+
+  if (elementClicked.parentNode === fruitsUl) {
+    fruitsUl.removeChild(elementClicked)
+  }
+}
+
 // fruitLis.forEach((li) => {
 //   if (fruitsUl.children.length >= 1) {
 //     li.onclick = function () {
