@@ -24,3 +24,21 @@ let addNumbers = (firstNumber, secondNumber) => {
 }
 
 console.log(addNumbers(10, 65))
+
+// vectors => [[1, 2], [3, 4], [5, 6]]
+// function dotProduct(v1, v2) {
+//   //  calculate dot product of v1 and v2
+//   const sum = 0
+//   for (const key in v1) {
+//     sum += v1[key] * v2[key]
+//   }
+
+//   return sum
+// }
+
+// algorithm to find orthogonal vectors
+// function isOrthogonal(v1, v2) {
+//   const sum = dotProduct(v1, v2)
+
+//   if (sum === 0) console.log("is orthogonal")
+// }
